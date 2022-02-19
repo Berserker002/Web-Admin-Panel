@@ -1,0 +1,131 @@
+.forms__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  background-color: #115e59;
+  padding: 2rem;
+  margin: 8rem auto;
+  width: 60rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 0 30px 0 rgba(19, 78, 74, 0.6);
+}
+
+.forms__control label {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: x-large;
+  display: block;
+}
+
+.forms__control input {
+  font: inherit;
+  font-size: larger;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 24rem;
+  height: 3.5rem;
+  max-width: 100%;
+}
+
+.forms__controls button {
+  font: inherit;
+  cursor: pointer;
+  font-size: large;
+  height: 4rem;
+  margin-left: 15rem;
+  margin-top: 1rem;
+  width: 30rem;
+  padding: 1rem 1rem;
+  border: 1px solid #ac4866;
+  background-color: #df9b5c;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.forms__controls button:hover,
+.forms__controls button:active {
+  background-color: #510674;
+  border-color: #510674;
+}
+
+.forms__controls button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.forms__control textarea {
+  font: inherit;
+  font-size: large;
+}
+
+.invalid {
+  font-size: large;
+  color: red;
+}
+
+.forms__controls__p {
+  margin-bottom: 1rem;
+  text-align: center;
+  background-color: #115e59;
+  padding: 1rem;
+  margin: 1rem auto;
+  margin-top: 2rem;
+  width: 40rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 0 30px 0 rgba(19, 78, 74, 0.6);
+  font-size: x-large;
+}
+
+.forms__controls__add {
+  gap: 4rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  background-color: #115e59;
+  padding: 1rem;
+  margin: 0rem auto;
+  margin-top: 1rem;
+  width: 60rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 0 30px 0 rgba(19, 78, 74, 0.6);
+}
+
+.forms__controls__add button {
+  font: inherit;
+  cursor: pointer;
+  font-size: large;
+  height: 4rem;
+  margin-left: 11rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  width: 35rem;
+  padding: 1rem 1rem;
+  border: 1px solid #d97706;
+  background-color: #df9b5c;
+  color: white;
+  border-radius: 12px;
+  margin-right: 0rem;
+  text-align: center;
+}
+
+.forms__controls__add button:hover,
+.forms__controls__add button:active {
+  background-color: #510674;
+  border-color: #510674;
+}
+
+.forms__controls__add button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
